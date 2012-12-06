@@ -32,7 +32,7 @@ import fitnesse.junit.FitNesseSuite.OutputDir;
 @Name("RestFixtureExtensionsTests")
 @FitnesseDir("src/main/resources")
 @OutputDir("target/fitnesse-reports")
-public class RestFixtureLiveDocumentationTest {
+public class RestFixtureExtensionsLiveDocumentationTest {
 
 	static {
 		System.setProperty("restfixture.graphs.dir", "target/fitnesse-reports/graphs");

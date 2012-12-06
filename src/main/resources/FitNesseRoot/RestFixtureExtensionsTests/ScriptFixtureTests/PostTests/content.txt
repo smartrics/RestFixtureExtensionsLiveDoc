@@ -121,7 +121,7 @@ Other than the aforementioned content types you can emulate form POSTs.
 Remember to escape the setBody content cell with ! - -!
 
 |script|!-smartrics.rest.fitnesse.fixture.ext.RestScriptFixture-!|http://${jettyHost}:${jettyPort}|
-|set header|Content-Type : application/x-www-form-urlencoded;charset=UTF-8|
+|set headers|Content-Type : application/x-www-form-urlencoded;charset=UTF-8|
 |set body|!-name=test%20post&data=some%20data-!|
 |post | /resources/ |
 |check|status code|201|
