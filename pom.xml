@@ -14,7 +14,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>smartrics.restfixture</groupId>
 	<artifactId>smartrics-RestFixtureExtensions-LiveDoc</artifactId>
-	<version>3.0</version>
+	<version>3.1-SNAPSHOT</version>
 	<name>RestFixture Extensions Live Documentation</name>
 	<url>https://github.com/smartrics/RestFixtureExtensionsLiveDoc</url>
 	<properties>

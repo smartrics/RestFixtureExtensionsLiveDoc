@@ -72,8 +72,8 @@ Expectations can be asserted also in json format for responses whose content typ
 |check|status code|200|
 |ensure|has headers|Content-Type : application/json;charset=ISO-8859-1|
 |ensure|has body|!-
- /resource/name[text()='a funky name'] <br/>
- /resource/data[text()='an important message']
+jsonbody.resource.name=='a funky name' <br/>
+jsonbody.resource.data=='an important message'
 -!|
 
 !**** Rest requests with query string containing array parameters

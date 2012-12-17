@@ -78,8 +78,8 @@ Variables may be substituted in the expected result
 |check|status code|200|
 |ensure|has header|Content-Type : application/json |
 |ensure|has body|!-
- /resource/name[text()='test post']<br/>
- /resource/data[text()='some data']
+jsonbody.resource.name=='test post' <br/>
+jsonbody.resource.data=='some data'
 -!|
 
 !**** File uploads
