@@ -14,7 +14,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>smartrics.restfixture</groupId>
 	<artifactId>smartrics-RestFixtureExtensions-LiveDoc</artifactId>
-	<version>3.1-SNAPSHOT</version>
+	<version>3.1</version>
 	<name>RestFixture Extensions Live Documentation</name>
 	<url>https://github.com/smartrics/RestFixtureExtensionsLiveDoc</url>
 	<properties>
@@ -86,11 +86,11 @@
 			<artifactId>cos</artifactId>
 			<version>05Nov2002</version>
 		</dependency>
-		<dependency>
-			<groupId>jetty</groupId>
-			<artifactId>jetty</artifactId>
-			<version>6.0.2</version>
-		</dependency>
+        <dependency>
+            <groupId>jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>6.0.2</version>
+        </dependency>
 		<dependency>
 			<groupId>jetty</groupId>
 			<artifactId>jetty-util</artifactId>
