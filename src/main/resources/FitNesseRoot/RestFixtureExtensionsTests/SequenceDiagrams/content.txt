@@ -73,7 +73,7 @@ For files to be included in the test pages, they need to be under ''FITNESSE_ROO
 
 !3 Embedding an image
 It's possible to embed a picture in the fixture itself. The picture embedded is the sequence generated to date
-| !-Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq-! |http://${jettyHost}:${jettyPort}|!-SequenceDiagForEmbed.png viewBox="0 0 350 500" width="350" height="500" -!|
+| !-Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq-! |http://${jettyHost}:${jettyPort}|!-SequenceDiagForEmbed.png viewBox="0 0 350 500" width="350" height="500"-!|
 |setBody|<resource><name>test post</name><data>some data</data></resource>|
 |POST   | /resources/ | 201 | | |
 |let    | id1 | header | Location:/resources/(.+) | |

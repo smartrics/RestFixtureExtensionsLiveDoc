@@ -20,18 +20,16 @@
  */
 package smartrics.rest.fitnesse.fixture;
 
+import fitnesse.junit.FitNesseRunner;
+import fitnesse.junit.FitNesseSuite;
+import fitnesse.junit.FitNesseSuite.Name;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import fitnesse.junit.FitNesseSuite;
-import fitnesse.junit.FitNesseSuite.FitnesseDir;
-import fitnesse.junit.FitNesseSuite.Name;
-import fitnesse.junit.FitNesseSuite.OutputDir;
-
 @RunWith(FitNesseSuite.class)
 @Name("RestFixtureExtensionsTests")
-@FitnesseDir("src/main/resources")
-@OutputDir("target/fitnesse-reports")
+@FitNesseRunner.FitnesseDir("src/main/resources")
+@FitNesseRunner.OutputDir("target/fitnesse-reports")
 public class RestFixtureExtensionsLiveDocumentationTest {
 
 	static {
